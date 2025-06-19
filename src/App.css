@@ -1,0 +1,260 @@
+.App {
+  text-align: center;
+  font-family: initial
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Footer / Instagram button */
+
+.btn-pink {
+  background-color: #e1306c !important;
+  color: white !important;
+  border: none;
+}
+
+/* Home / Advantages section  */
+.carousel-item img {
+  height: 600px;
+  object-fit: cover;
+}
+
+.card {
+  border: none;
+  border-radius: 0.5rem;
+}
+
+/* Nav : Hover */
+/* Navbar customization */
+.navbar {
+  transition: all 0.3s ease-in-out;
+  z-index: 1030;
+}
+
+/* Brand styling */
+.navbar-brand span {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+/* Nav link base styles */
+.navbar-nav .nav-link {
+  color: #c99211 !important;
+  /* dark text */
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+/* Hover underline effect */
+.navbar-nav .hover-underline::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #c99211;
+  /* Bootstrap primary */
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .hover-underline:hover::after {
+  width: 100%;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #c99211 !important;
+  /* blue on hover */
+}
+
+/* Navbar toggler icon */
+.navbar-toggler-icon {
+  background-image: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #343a40;
+  mask: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") no-repeat center;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") no-repeat center;
+  mask-size: cover;
+  -webkit-mask-size: cover;
+}
+
+/* Footer : Quick Link */
+.hover-link:hover {
+  font-weight: 600;
+}
+
+/* Home / Testomonial */
+.star-rating i {
+  color: #fbc634;
+}
+
+.testimonial-card {
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #007bff;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+
+/* Heading Home */
+.animate-image {
+  transition: transform 0.3s ease-in-out;
+}
+
+.animate-image:hover {
+  transform: scale(1.1);
+}
+
+.animate-image-view {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.animate-image-view.fade-in-up {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* Image Height & width */
+.img-height {
+  height: 30em;
+}
+
+/* Contact Button */
+.sticky-contact-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.sticky-contact-btn:hover {
+  background-color: #857c02;
+  color: white;
+}
+
+.contact-logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+/* Bottom to top Animation  */
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-up {
+  animation: slideUp 2s ease forwards;
+}
+
+
+.icon-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #f8f9fa;
+}
+
+.icon-card i:hover {
+  transform: scale(1.2);
+  color: darkblue;
+}
+
+/* Image height */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Background */
+.bg-gray {
+  background-color: rgba(236, 233, 233, 0.659);
+}
+
+/* Counter Sction */
+.counter-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.counter-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.bg-gold{
+  background-color: #c99211;
+}
+
+.bg-darkGold{
+  background-color: #a37100;
+}
+
+.text-gold{
+  color: #c99211;
+}
