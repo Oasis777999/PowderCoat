@@ -127,7 +127,7 @@ export function Footer() {
       {/* Contact Us */}
       <Link
         to="https://wa.me/+918600500400"
-        className="sticky-contact-btn bg-gold fs-3"
+        className="sticky-contact-btn fs-3"
       >
         <i class="bi bi-whatsapp p-1"></i>
         Contact Us

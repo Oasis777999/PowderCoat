@@ -219,7 +219,7 @@ export const Home = () => {
             Contact our team of experts today to find the perfect powder coating
             solution for your specific needs.
           </p>
-          <Link to="/contactus" className="btn bg-gold fw-bold px-4 py-2">
+          <Link to="/contactus" className="btn bg-gold border fw-bold px-4 py-2">
             Contact Us Today
           </Link>
         </div>
