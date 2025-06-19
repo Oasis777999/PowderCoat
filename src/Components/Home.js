@@ -163,8 +163,7 @@ export const Home = () => {
               />
               <h5 class="fw-bold text-gold">High Production</h5>
               <p>
-                10MT/day capacity with sealed coating zones and automated
-                cleaning.
+                With a 10MT daily coating capacity, our fully automated, German-imported Wagner plant features a Qualicoat-approved 7-tank pretreatment process and quick color change system.
               </p>
             </div>
           </div>

@@ -6,7 +6,7 @@ const InfoPopUp = () => {
 
   const [formData, setFormData] = useState({
     name: "",
-    email: "",
+    mobile: "",
     service: "",
   });
 
@@ -17,7 +17,7 @@ const InfoPopUp = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(`Name: ${formData.name}\nEmail: ${formData.email}\nService: ${formData.service}`);
+    alert(`Name: ${formData.name}\Mobile: ${formData.mobile}\nService: ${formData.service}`);
     setShow(false);
   };
 
@@ -46,7 +46,7 @@ const InfoPopUp = () => {
             <div className="modal-body">
               <div className="mb-3">
                 <label htmlFor="name" className="form-label">
-                  Name
+                  Name <span style={{ color: 'red' }}>*</span>
                 </label>
                 <input
                   type="text"
@@ -59,22 +59,22 @@ const InfoPopUp = () => {
                 />
               </div>
               <div className="mb-3">
-                <label htmlFor="email" className="form-label">
-                  Email
+                <label htmlFor="mobile" className="form-label">
+                  Mobile <span style={{ color: 'red' }}>*</span>
                 </label>
                 <input
-                  type="email"
-                  id="email"
-                  name="email"
+                  type="mobile"
+                  id="mobile"
+                  name="mobile"
                   className="form-control"
-                  value={formData.email}
+                  value={formData.mobile}
                   onChange={handleChange}
                   required
                 />
               </div>
               <div className="mb-3">
                 <label htmlFor="service" className="form-label">
-                  Select Service
+                  Select Service <span style={{ color: 'red' }}>*</span>
                 </label>
                 <select
                   id="service"
@@ -95,13 +95,13 @@ const InfoPopUp = () => {
               <button type="submit" className="btn text-white bg-gold">
                 Submit
               </button>
-              <button
+              {/* <button
                 type="button"
                 className="btn btn-secondary"
                 onClick={() => setShow(false)}
               >
                 Close
-              </button>
+              </button> */}
             </div>
           </form>
         </div>
