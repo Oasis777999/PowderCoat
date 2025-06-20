@@ -16,10 +16,10 @@ export const ContactUs = () => {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          alert("Thank You for Contacting Us!");
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          alert("FAILED...", error.text);
         }
       );
   };

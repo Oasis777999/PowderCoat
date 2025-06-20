@@ -46,7 +46,7 @@ const data = [
 
 export const AboutUs = () => {
   return (
-    <div className="fs-4">
+    <div className="fs-5">
       {/* Who we are */}
       <div className="py-5 bg-dark text-light">
         <div className="container ">

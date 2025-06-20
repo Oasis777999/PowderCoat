@@ -44,8 +44,8 @@ export const Products = () => {
   return (
     <>
     {/* Product Section */}
-      <section className="py-5 bg-light text-justify">
-        <div className="container-fluid fs-4">
+      <section className="py-5 bg-light text-justify fs-5">
+        <div className="container-fluid">
           <h1 className="fw-bold text-gold mb-3">Our Product Range</h1>
           <p className="text-muted mb-5">
             Discover our comprehensive range of powder coating solutions designed to meet the needs of diverse industries — from high-volume manufacturers to precision engineering labs.

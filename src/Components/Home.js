@@ -19,7 +19,7 @@ export const Home = () => {
     triggerOnce: true,
   });
   return (
-    <div className="fs-4">
+    <div className="fs-5">
       {/* Title Images */}
       <div class="container-fluid p-0">
         <div

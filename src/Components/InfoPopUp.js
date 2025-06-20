@@ -17,7 +17,9 @@ const InfoPopUp = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(`Name: ${formData.name}\Mobile: ${formData.mobile}\nService: ${formData.service}`);
+    alert(
+      `Name: ${formData.name} \n Mobile: ${formData.mobile} \n Service: ${formData.service}`
+    );
     setShow(false);
   };
 
@@ -25,7 +27,7 @@ const InfoPopUp = () => {
 
   return (
     <div
-      className="modal fade show fs-4"
+      className="modal fade show fs-5"
       style={{ display: "block", backgroundColor: "rgba(0,0,0,0.5)" }}
       tabIndex="-1"
       role="dialog"
@@ -33,7 +35,7 @@ const InfoPopUp = () => {
     >
       <div className="modal-dialog modal-dialog-centered" role="document">
         <div className="modal-content">
-          <div className="modal-header">
+          <div className="modal-header border">
             <h5 className="modal-title text-gold">Get a Quote</h5>
             <button
               type="button"
@@ -46,7 +48,7 @@ const InfoPopUp = () => {
             <div className="modal-body">
               <div className="mb-3">
                 <label htmlFor="name" className="form-label">
-                  Name <span style={{ color: 'red' }}>*</span>
+                  Name <span style={{ color: "red" }}>*</span>
                 </label>
                 <input
                   type="text"
@@ -60,7 +62,7 @@ const InfoPopUp = () => {
               </div>
               <div className="mb-3">
                 <label htmlFor="mobile" className="form-label">
-                  Mobile <span style={{ color: 'red' }}>*</span>
+                  Mobile <span style={{ color: "red" }}>*</span>
                 </label>
                 <input
                   type="mobile"
@@ -74,7 +76,7 @@ const InfoPopUp = () => {
               </div>
               <div className="mb-3">
                 <label htmlFor="service" className="form-label">
-                  Select Service <span style={{ color: 'red' }}>*</span>
+                  Select Service <span style={{ color: "red" }}>*</span>
                 </label>
                 <select
                   id="service"
@@ -86,7 +88,9 @@ const InfoPopUp = () => {
                 >
                   <option value="">Choose...</option>
                   <option value="automobile coating">Automobile Coating</option>
-                  <option value="architecture coating">Architecture Coating</option>
+                  <option value="architecture coating">
+                    Architecture Coating
+                  </option>
                   <option value="powder coating">Powder Coating</option>
                 </select>
               </div>
