@@ -49,9 +49,12 @@ export const Home = () => {
                     long-lasting powder coatings that withstand harsh
                     environments and enhance appearance.
                   </p>
-                  <button className="btn bg-gold text-white">
+                  <Link
+                    to="/projects"
+                    className="btn bg-gold text-light fw-bold px-4 py-2"
+                  >
                     See More...
-                  </button>
+                  </Link>
                 </div>
               </div>
               <div className="carousel-item">
@@ -72,9 +75,12 @@ export const Home = () => {
                     railings, doors, and structural components to ensure
                     durability and aesthetic appeal.
                   </p>
-                  <button className="btn bg-gold text-white">
+                  <Link
+                    to="/projects"
+                    className="btn bg-gold text-light fw-bold px-4 py-2"
+                  >
                     See More...
-                  </button>
+                  </Link>
                 </div>
               </div>
               <div className="carousel-item">
@@ -94,9 +100,12 @@ export const Home = () => {
                     Extend the lifespan of machinery and equipment with coatings
                     that resist abrasion, chemicals.
                   </p>
-                  <button className="btn bg-gold text-white">
+                  <Link
+                    to="/projects"
+                    className="btn bg-gold text-light fw-bold px-4 py-2"
+                  >
                     See More...
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -138,16 +147,16 @@ export const Home = () => {
                 Pune’s Largest Automated Aluminium Coating Plant
               </h1>
               <p className="text-justify">
-                Launched in May 2025, ProCoatify India LLP offers
-                environment friendly powder coating solutions for architectural
-                and industrial applications. Our process ensures a 1/1000 mm
+                Launched in May 2025, ProCoatify India LLP offers environment
+                friendly powder coating solutions for architectural and
+                industrial applications. Our process ensures a 1/1000 mm
                 precision and exceptional durability.
               </p>
               <p className="text-justify">
-                With 10 MT (Metric Tons) daily coating capacity and our sealed and fully
-                automated German made (imported) Wagner plant. With Qualicoat
-                approved 7-tank pretreatment process and quick colour change
-                systems.
+                With 10 MT (Metric Tons) daily coating capacity and our sealed
+                and fully automated German made (imported) Wagner plant. With
+                Qualicoat approved 7-tank pretreatment process and quick colour
+                change systems.
               </p>
             </div>
           </div>
@@ -199,7 +208,7 @@ export const Home = () => {
                 alt="Colors"
               />
               <h5 class="fw-bold text-gold">Color Variety</h5>
-              <p>RAL glossy, matte, textured & metallic finishes available.</p>
+              <p>RAL glossy, matt, textured & metallic finishes available.</p>
             </div>
           </div>
           <div class="col-md-3 mb-4 animate-image">
@@ -216,7 +225,7 @@ export const Home = () => {
         </div>
       </div>
 
-      <IndustriesFlip/>
+      <IndustriesFlip />
 
       {/* Contact Us */}
       <div className="bg-darkGold text-white text-center py-5">
@@ -230,7 +239,7 @@ export const Home = () => {
           </p>
           <Link
             to="/contactus"
-            className="btn bg-gold border fw-bold px-4 py-2"
+            className="btn bg-gold text-light fw-bold px-4 py-2"
           >
             Contact Us Today
           </Link>
@@ -336,7 +345,9 @@ export const Home = () => {
       {/* Features of Powder Coating */}
       <section>
         <div className="container-fluid bg-gray py-4 text-justify">
-          <h2 class="fw-bold text-gold mb-3">FEATURES OF POWDER COATING AT PROCOATIFY</h2>
+          <h2 class="fw-bold text-gold mb-3">
+            FEATURES OF POWDER COATING AT PROCOATIFY
+          </h2>
           <p class="mb-5 ">
             At Procoatify India LLP, we’re a passionate team of powder coating
             experts, transforming aluminum with durable, high-quality finishes
@@ -355,7 +366,7 @@ export const Home = () => {
               {
                 icon: "&#127752;",
                 title: "Color Range",
-                desc: "A wide range of attractive RAL shades and customized hues are offered in glossy, semi-glossy, matte-textured, and metallic finishes.",
+                desc: "A wide range of attractive RAL shades and customized hues are offered in glossy, semi-glossy, matt-textured, and metallic finishes.",
               },
               {
                 icon: "&#127969;",
@@ -459,7 +470,8 @@ export const Home = () => {
                         <i class="bi bi-star-fill"></i>
                       </div>
                       <p class="text-muted">
-                        Good coating service. It was a good experience with them.
+                        Good coating service. It was a good experience with
+                        them.
                       </p>
                       <h5 class="fw-bold mt-3 text-gold">Karthik Choksi</h5>
                     </div>

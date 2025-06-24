@@ -22,7 +22,7 @@ const data = [
   },
   {
     icon: "🎨",
-    text: "RAL Shades & Custom Finishes: Glossy, Semi-Glossy, Matte, Metallic, and Textured",
+    text: "RAL Shades & Custom Finishes: Glossy, Semi-Glossy, Matt, Metallic, and Textured",
   },
   { icon: "🤖", text: "Automatic WAGNER spray guns ensure uniform coating" },
   {
