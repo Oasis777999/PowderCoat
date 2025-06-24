@@ -4,14 +4,8 @@ import { Link } from 'react-router-dom';
 const products = [
   {
     title: 'Industrial Coating Systems',
-    description: 'High-volume powder coating systems designed for continuous operation in manufacturing environments. Ideal for automotive, aerospace, and large-scale metal fabrication.',
+    description: 'High volume powder coating systems designed for continuous operation in manufacturing environments. Ideal for automotive, aerospace, and large-scale metal fabrication.',
     imgUrl: 'https://reliantfinishingsystems.com/wp-content/uploads/2023/07/Auto-Line-Arial-View.jpg',
-    link: '#',
-  },
-  {
-    title: 'Manual Coating Equipment',
-    description: 'Precision hand-held coating tools for smaller production runs and custom applications. Offers flexibility and control for high-quality finish.',
-    imgUrl: 'https://www.eastmancuts.com/wp-content/uploads/2015/01/blue-streak.png',
     link: '#',
   },
   {
@@ -34,7 +28,7 @@ const products = [
   },
   {
     title: 'Coating Booths & Ovens',
-    description: 'Energy-efficient powder coating booths and curing ovens, available in modular and large-scale configurations.',
+    description: 'Energy efficient powder coating booths and curing ovens, available in modular and large scale configurations.',
     imgUrl: 'https://www.sbimachines.com/images/product/automobile-paint-booth.jpg',
     link: '#',
   },
@@ -48,7 +42,7 @@ export const Products = () => {
         <div className="container-fluid">
           <h1 className="fw-bold text-gold mb-3">Our Product Range</h1>
           <p className="text-muted mb-5">
-            Discover our comprehensive range of powder coating solutions designed to meet the needs of diverse industries — from high-volume manufacturers to precision engineering labs.
+            Discover our comprehensive range of powder coating solutions designed to meet the needs of diverse industries from high volume manufacturers to precision engineering labs.
           </p>
           <div className="row g-4 text-justify">
             {products.map((product, index) => (

@@ -16,7 +16,7 @@ const data = [
     icon: "🎯",
     text: (
       <>
-        Coating Capacity: <strong>10MT per day</strong> with 95% availability
+        Coating Capacity: <strong>10MT per day</strong>
       </>
     ),
   },
@@ -27,7 +27,7 @@ const data = [
   { icon: "🤖", text: "Automatic WAGNER spray guns ensure uniform coating" },
   {
     icon: "♻️",
-    text: "We use Qualicoat-certified pretreatment chemicals from Chemetall = eco-friendly process",
+    text: "We use eco-friendly, Qualicoat-certified pretreatment chemicals from Chemetall",
   },
   {
     icon: "📏",
@@ -50,9 +50,11 @@ export const AboutUs = () => {
       {/* Who we are */}
       <div className="py-5 bg-dark text-light">
         <div className="container ">
-          <h1 className="highlight-title text-gold display-4 mb-3">Who We Are ? </h1>
+          <h1 className="highlight-title text-gold display-4 mb-3">
+            Who We Are ?{" "}
+          </h1>
           <p className="mb-5">
-            We At Procoatify India llp , we’re a passionate team of powder
+            We At Procoatify India LLP, we’re a passionate team of powder
             coating experts, transforming aluminum with durable, high-quality
             finishes built to last. With deep roots in the aluminum industry and
             powered by cutting-edge Wagner Group machinery imported from
@@ -63,7 +65,7 @@ export const AboutUs = () => {
         </div>
       </div>
 
-      {/* Industries we serve  */}
+      {/* Industries we serve 
       <div class="p-2 bg-light py-5">
         <h2 className="text-center text-gold fw-bold mb-5">Industries We Serve</h2>
         <div className="row g-4">
@@ -167,7 +169,7 @@ export const AboutUs = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Company Intro / Our Journy */}
 
@@ -186,7 +188,7 @@ export const AboutUs = () => {
               Our technology achieves coating precision up to{" "}
               <strong>1/1000 mm</strong> through powder dispersion,
               electrostatic charging, and curing — resulting in extremely
-              durable, scratch- and fade-resistant finishes.
+              durable, scratch and fade-resistant finishes.
             </p>
           </div>
           <div class="col-md-6 mb-4 mb-md-0">
@@ -234,10 +236,11 @@ export const AboutUs = () => {
           <div class=" rounded text-justify">
             <h1 class="fw-bold mb-3 text-gold">Advanced Technology</h1>
             <p>
-              Our powder coating oven stretches 30 meters and reaches up to
-              250°C. A Travel Temperature Recorder (TTR) ensures accurate
-              curing. Every detail—from powder dispersion to electrostatic
-              charge to curing—is optimized for performance.
+              Our state-of-the-art powder coating oven spans 30 meters and
+              operates at temperatures up to 250°C. A Travel Temperature
+              Recorder (TTR) ensures precise curing control. Every aspect from
+              powder dispersion and electrostatic charging to final curing is
+              meticulously optimized for superior performance and durability.
             </p>
             <p>
               We follow top-tier automotive standards and quality practices to

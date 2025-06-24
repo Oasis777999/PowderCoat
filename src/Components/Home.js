@@ -11,6 +11,7 @@ import product1 from "../Images/Home/Product1.png";
 import product2 from "../Images/Home/Product2.png";
 import product3 from "../Images/Home/Product3.png";
 import product4 from "../Images/Home/Product4.png";
+import IndustriesFlip from "./IndustriesFlip";
 
 export const Home = () => {
   // Animation
@@ -48,7 +49,9 @@ export const Home = () => {
                     long-lasting powder coatings that withstand harsh
                     environments and enhance appearance.
                   </p>
-                  <button className="btn bg-gold text-white">See More...</button>
+                  <button className="btn bg-gold text-white">
+                    See More...
+                  </button>
                 </div>
               </div>
               <div className="carousel-item">
@@ -69,7 +72,9 @@ export const Home = () => {
                     railings, doors, and structural components to ensure
                     durability and aesthetic appeal.
                   </p>
-                  <button className="btn bg-gold text-white">See More...</button>
+                  <button className="btn bg-gold text-white">
+                    See More...
+                  </button>
                 </div>
               </div>
               <div className="carousel-item">
@@ -89,7 +94,9 @@ export const Home = () => {
                     Extend the lifespan of machinery and equipment with coatings
                     that resist abrasion, chemicals.
                   </p>
-                  <button className="btn bg-gold text-white">See More...</button>
+                  <button className="btn bg-gold text-white">
+                    See More...
+                  </button>
                 </div>
               </div>
             </div>
@@ -132,15 +139,15 @@ export const Home = () => {
               </h1>
               <p className="text-justify">
                 Launched in May 2025, ProCoatify India LLP offers
-                environment-friendly powder coating solutions for architectural
+                environment friendly powder coating solutions for architectural
                 and industrial applications. Our process ensures a 1/1000 mm
                 precision and exceptional durability.
               </p>
               <p className="text-justify">
-                With 10MT daily coating capacity, our sealed and Fully German
-                (Imported) made automated plant uses WAGNER plant with Qualicoat
-                approved tanks, non-chromate pre-treatment process, and quick
-                colour change systems.
+                With 10 MT (Metric Tons) daily coating capacity and our sealed and fully
+                automated German made (imported) Wagner plant. With Qualicoat
+                approved 7-tank pretreatment process and quick colour change
+                systems.
               </p>
             </div>
           </div>
@@ -163,7 +170,8 @@ export const Home = () => {
               />
               <h5 class="fw-bold text-gold">High Production</h5>
               <p>
-                With a 10MT daily coating capacity, our fully automated, German-imported Wagner plant features a Qualicoat-approved 7-tank pretreatment process and quick color change system.
+                10MT/day capacity with sealed coating zones and automated
+                cleaning.
               </p>
             </div>
           </div>
@@ -178,7 +186,7 @@ export const Home = () => {
               <h5 class="fw-bold text-gold">Versatile Metal Coating</h5>
               <p>
                 Suitable for coating all types of metals, including aluminum,
-                steel, and galvanized surfaces
+                steel, and galvanized surfaces.
               </p>
             </div>
           </div>
@@ -208,6 +216,8 @@ export const Home = () => {
         </div>
       </div>
 
+      <IndustriesFlip/>
+
       {/* Contact Us */}
       <div className="bg-darkGold text-white text-center py-5">
         <div className="container">
@@ -218,15 +228,20 @@ export const Home = () => {
             Contact our team of experts today to find the perfect powder coating
             solution for your specific needs.
           </p>
-          <Link to="/contactus" className="btn bg-gold border fw-bold px-4 py-2">
+          <Link
+            to="/contactus"
+            className="btn bg-gold border fw-bold px-4 py-2"
+          >
             Contact Us Today
           </Link>
         </div>
       </div>
 
-      {/* Products */}
-      <div class="p-2
-       bg-gray  text-center">
+      {/* Products
+      <div
+        class="p-2
+       bg-gray  text-center"
+      >
         <div class="text-justify">
           <h2 class="fw-bold text-gold mb-3">PRODUCTS</h2>
           <p class="mb-5">
@@ -288,9 +303,7 @@ export const Home = () => {
               <div class="card h-100 border-0 shadow-sm">
                 <img src={product3} class="card-img-top" alt="Pure Polyester" />
                 <div class="card-body">
-                  <h5 class="card-title text-gold fw-bold">
-                    PURE POLYESTER
-                  </h5>
+                  <h5 class="card-title text-gold fw-bold">PURE POLYESTER</h5>
                   <p class="card-text text-muted">
                     Pure Polyester Powder is mainly used for architectural
                     applications due to its excellent outdoor...
@@ -318,24 +331,26 @@ export const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Features of Powder Coating */}
       <section>
         <div className="container-fluid bg-gray py-4 text-justify">
-          <h2 class="fw-bold text-gold mb-3">FEATURES OF POWDER COATING</h2>
+          <h2 class="fw-bold text-gold mb-3">FEATURES OF POWDER COATING AT PROCOATIFY</h2>
           <p class="mb-5 ">
-            Powder coating is a high-quality, durable finishing process used
-            across a variety of industries. It provides superior resistance to
-            corrosion, chipping, scratching, and fading, ensuring long-lasting
-            protection and aesthetic appeal for metal products.
+            At Procoatify India LLP, we’re a passionate team of powder coating
+            experts, transforming aluminum with durable, high-quality finishes
+            built to last. With deep roots in the aluminum industry and powered
+            by cutting-edge Wagner Group machinery imported from Germany, we
+            combine precision, innovation, and a commitment to sustainability to
+            deliver customized solutions that exceed your expectations.
           </p>
           <div className="row justify-content-center">
             {[
               {
                 icon: "&#128736;",
                 title: "Production Capacity",
-                desc: "SThe facility is capable of coatin10MT per day with an expected plant availability of 95%",
+                desc: "The facility is capable of coating 10MT per day.",
               },
               {
                 icon: "&#127752;",
@@ -349,8 +364,8 @@ export const Home = () => {
               },
               {
                 icon: "&#9851;",
-                title: "Eco-Friendly Operations",
-                desc: "Non-chromate pre-t and automatic systems reduce toxic chemicals, making the process environmentally friendly.",
+                title: "Environment Friendly Operations",
+                desc: "Automatic systems reduce toxic chemicals, making the process environmentally friendly.",
               },
               {
                 icon: "&#127981",
@@ -359,8 +374,8 @@ export const Home = () => {
               },
               {
                 icon: "&#128202;",
-                title: "Large Profile Coating Capacity",
-                desc: "Capable of coating extrusions up to 7.5 meters with a quick colour change facility to ensure thorough powder removal.",
+                title: "Quality Control",
+                desc: "DFT, gloss, bend, impact & visual tests for every batch.",
               },
             ].map((item, index) => (
               <div
@@ -444,7 +459,7 @@ export const Home = () => {
                         <i class="bi bi-star-fill"></i>
                       </div>
                       <p class="text-muted">
-                        Good coting service. It was a good experience with them.
+                        Good coating service. It was a good experience with them.
                       </p>
                       <h5 class="fw-bold mt-3 text-gold">Karthik Choksi</h5>
                     </div>

@@ -31,14 +31,6 @@ const galleryData =
       "title": "Fluoropolymer Coating"
     },
     {
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMZULkMl5X9__L8WspAycMh_b4mRU47b6Tjw&s",
-      "title": "Urethane Powder Coating"
-    },
-    {
-      "image": "https://www.carcility.com/blog/wp-content/uploads/2020/12/Alloy-Wheels-vs-Steel-Wheels.jpg",
-      "title": "Polyurethane Coating"
-    },
-    {
       "image": "https://www.rapiddirect.com/wp-content/uploads/2022/04/copper-plated-parts.jpg",
       "title": "Metallic Powder Coating"
     },
@@ -49,22 +41,6 @@ const galleryData =
     {
       "image": "https://www.minitoolscoating.com/wp-content/uploads/2018/07/rivestimento-GearCut.jpg",
       "title": "Epoxy Powder Coating"
-    },
-    {
-      "image": "https://d2n4wb9orp1vta.cloudfront.net/cms/brand/pf/2023-pf/051023pfchrome.png",
-      "title": "Chrome Powder Coating"
-    },
-    {
-      "image": "https://trioncoatings.com/wp-content/uploads/2022/06/hexavalent-chromium-vs-trivalent-chromium.jpg",
-      "title": "Chromium Coating"
-    },
-    {
-      "image": "https://armoloy.com/wp-content/uploads/2023/12/chromium-coatings-conveyor-line.jpg",
-      "title": "Chromium Coating"
-    },
-    {
-      "image": "https://orioncoat.com/wp-content/uploads/Orion-Industries-automated-7-axis-robotic-spray-coating-cell-cr.jpg",
-      "title": "Automated Robotic Coating"
     }
   ]
   

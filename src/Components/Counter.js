@@ -3,8 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 
 const stats = [
-  { value: 13, label: 'Years Old' },
-  { value: 55, label: 'Employees' },
+  { value: 25, label: 'Employees' , suffix: '+'},
   { value: 10, label: 'Large Product Line', suffix: '+' },
   { value: 20000, label: 'Sq. Ft Sprawling Area', suffix: '+' },
 ];
@@ -48,7 +47,7 @@ const Counter = () => {
       <div className="container">
         <div className="row gy-4">
           {stats.map((stat, idx) => (
-            <div className="col-6 col-md-3" key={idx}>
+            <div className="col-6 col-md-4" key={idx}>
               <h2 className="text-danger fw-bold display-5">
                 {counts[idx].toLocaleString()}{stat.suffix || ''}
               </h2>

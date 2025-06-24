@@ -80,7 +80,7 @@ export const ContactUs = () => {
               </div>
               <div>
                 <h3 class="fw-bold text-start">Customer Care</h3>
-                <p class="mb-0">+91 8600500400</p>
+                <p class="mb-0">+91 9960852623</p>
               </div>
             </div>
 
@@ -96,6 +96,7 @@ export const ContactUs = () => {
               <div>
                 <h3 class="fw-bold text-start">Phone</h3>
                 <p class="mb-0">+91 8600500400</p>
+                <p class="mb-0">+91 9960852623</p>
               </div>
             </div>
           </div>
@@ -171,7 +172,7 @@ export const ContactUs = () => {
         <h2 className="text-center mb-4 fw-bold">Our Location</h2>
         <div className="ratio ratio-16x9">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.782220667988!2d73.79377167509488!3d18.496889170417093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2f15318be7ae7%3A0x27d3d502cb17fa86!2s313%2C%20Gauddara%2C%20Khed%20Shivapur%2C%20Pune%2C%20Maharashtra%20412205!5e0!3m2!1sen!2sin!4v1715168416354!5m2!1sen!2sinhttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.2797734433575!2d73.8240407!3d18.3491254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2931743a00579%3A0xb46cf1e7a20c9a11!2sKhed%20Shivapur-Kondanpur%20Rd%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1715169854731!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3789.1736542641296!2d73.84182387509222!3d18.354200599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ed001e5424d1%3A0xb959a5fee5c39fcc!2sPROCOATIFY%20INDIA%20LLP!5e0!3m2!1sen!2sin!4v1718968800000!5m2!1sen!2sin"
             title="Company Location"
             style={{ border: 0, width: "100%", height: "450px" }}
             allowFullScreen=""

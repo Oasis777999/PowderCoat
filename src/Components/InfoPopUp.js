@@ -92,6 +92,7 @@ const InfoPopUp = () => {
                     Architecture Coating
                   </option>
                   <option value="powder coating">Powder Coating</option>
+                  <option value="industrial coating">Industrial Coating</option>
                 </select>
               </div>
             </div>
