@@ -1,6 +1,7 @@
-import {useRef} from "react";
+import { useRef } from "react";
 import { Link } from "react-router-dom";
-import logo from "../Images/logo.png";
+import logo from "../Images/logo3 (3).png";
+import torch from "../Images/Torch.png";
 
 export const Nav = () => {
   const navbarCollapseRef = useRef(null);
@@ -23,8 +24,15 @@ export const Nav = () => {
           <img
             src={logo}
             alt="ProCoatify Logo"
-            width="80"
-            height="80"
+            width="100"
+            height="100"
+            className="d-inline-block align-text-top"
+          />
+          <img
+            src={torch}
+            alt="ProCoatify Logo"
+            width="100"
+            height="100"
             className="d-inline-block align-text-top"
           />
         </Link>
@@ -46,7 +54,7 @@ export const Nav = () => {
           id="navbarSupportedContent"
           ref={navbarCollapseRef}
         >
-          <ul className="navbar-nav gap-3 fs-5">
+          <ul className="navbar-nav gap-3 fs-3">
             {[
               { to: "/", label: "Home" },
               { to: "/aboutus", label: "About Us" },
