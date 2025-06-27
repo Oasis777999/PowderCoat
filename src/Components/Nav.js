@@ -21,20 +21,22 @@ export const Nav = () => {
     <nav className="navbar navbar-expand-lg bg-light shadow-sm sticky-top p-1">
       <div className="container-fluid px-4">
         <Link className="navbar-brand d-flex align-items-center gap-2" to="/">
-          <img
-            src={logo}
-            alt="ProCoatify Logo"
-            width="100"
-            height="100"
-            className="d-inline-block align-text-top"
-          />
-          <img
-            src={torch}
-            alt="ProCoatify Logo"
-            width="100"
-            height="100"
-            className="d-inline-block align-text-top"
-          />
+          <div className="d-flex flex-column flex-md-row align-items-center justify-content-center gap-3">
+            <img
+              src={logo}
+              alt="ProCoatify Logo"
+              width="100"
+              height="100"
+              className="img-fluid"
+            />
+            <img
+              src={torch}
+              alt="ProCoatify Torch"
+              width="100"
+              height="100"
+              className="img-fluid"
+            />
+          </div>
         </Link>
 
         <button
