@@ -448,7 +448,7 @@ export const Home = () => {
       {/* Testimonial */}
       <div class="p-2 bg-light text-center">
         <div class="mt-3">
-          <h6 class="text-muted">Our Client say</h6>
+          <h6 class="text-muted">Our Clients Say</h6>
           <h2 class="fw-bold mb-3 text-gold animate-heading">Testimonial</h2>
 
           <div
@@ -458,10 +458,11 @@ export const Home = () => {
             data-bs-interval="2000"
           >
             <div class="carousel-inner">
+              {/* <!-- Slide 1 --> */}
               <div class="carousel-item active">
                 <div class="row justify-content-center">
-                  <div class="col-md-4 mb-4 animate-image">
-                    <div class="card testimonial-card p-4">
+                  <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card testimonial-card p-4 h-100">
                       <div class="star-rating mb-2">
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
@@ -476,8 +477,8 @@ export const Home = () => {
                       <h5 class="fw-bold mt-3 text-gold">Karthik Choksi</h5>
                     </div>
                   </div>
-                  <div class="col-md-4 mb-4 animate-image">
-                    <div class="card testimonial-card p-4">
+                  <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card testimonial-card p-4 h-100">
                       <div class="star-rating mb-2">
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
@@ -492,8 +493,8 @@ export const Home = () => {
                       <h5 class="fw-bold mt-3 text-gold">Anup Dondiya</h5>
                     </div>
                   </div>
-                  <div class="col-md-4 mb-4 animate-image">
-                    <div class="card testimonial-card p-4">
+                  <div class="col-sm-12 col-md-6 col-lg-4 mb-4 d-none d-lg-block">
+                    <div class="card testimonial-card p-4 h-100">
                       <div class="star-rating mb-2">
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
@@ -511,10 +512,11 @@ export const Home = () => {
                 </div>
               </div>
 
+              {/* <!-- Slide 2 --> */}
               <div class="carousel-item">
                 <div class="row justify-content-center">
-                  <div class="col-md-4 mb-4 animate-image">
-                    <div class="card testimonial-card p-4">
+                  <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card testimonial-card p-4 h-100">
                       <div class="star-rating mb-2">
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
@@ -529,8 +531,8 @@ export const Home = () => {
                       <h5 class="fw-bold mt-3 text-gold">Sneha Rajput</h5>
                     </div>
                   </div>
-                  <div class="col-md-4 mb-4 animate-image">
-                    <div class="card testimonial-card p-4">
+                  <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card testimonial-card p-4 h-100">
                       <div class="star-rating mb-2">
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
@@ -539,14 +541,14 @@ export const Home = () => {
                         <i class="bi bi-star-fill"></i>
                       </div>
                       <p class="text-muted">
-                        Impressed with the coting quality and consistent
+                        Impressed with the coating quality and consistent
                         communication.
                       </p>
                       <h5 class="fw-bold mt-3 text-gold">Ravi Mehta</h5>
                     </div>
                   </div>
-                  <div class="col-md-4 mb-4 animate-image">
-                    <div class="card testimonial-card p-4">
+                  <div class="col-sm-12 col-md-6 col-lg-4 mb-4 d-none d-lg-block">
+                    <div class="card testimonial-card p-4 h-100">
                       <div class="star-rating mb-2">
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
@@ -564,6 +566,7 @@ export const Home = () => {
               </div>
             </div>
 
+            {/* <!-- Carousel controls --> */}
             <div class="carousel-indicators justify-content-center mt-2">
               <button
                 type="button"

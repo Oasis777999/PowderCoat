@@ -5,21 +5,21 @@ import emailjs from "@emailjs/browser";
 export const ContactUs = () => {
   const form = useRef();
 
-  console.log(form);
-
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_elobwcm", "template_10qwbeq", form.current, {
-        publicKey: "ovArC_TPNsk3ZzzQ5",
+      .sendForm("service_n4o3qt8", "template_ewy42m8", form.current, {
+        publicKey: "5DIc3xt5b2_lr3pSS",
       })
       .then(
         () => {
-          alert("Thank You for Contacting Us!");
+          alert("Thank you for contacting us! Our team will call you soon.");
+          form.current.reset(); // optional: clears the form
         },
         (error) => {
-          alert("FAILED...", error.text);
+          console.error("FAILED...", error);
+          alert("Something went wrong. Please try again.");
         }
       );
   };
@@ -102,59 +102,62 @@ export const ContactUs = () => {
           </div>
 
           {/* <!-- Right Column: Your Form --> */}
-          <div class="col-md-7">
-            <div class="row justify-content-center">
-              <form ref={form} onSubmit={sendEmail} class="col-12 row g-4">
-                <div class="col-md-12">
+          <div className="col-md-7">
+            <div className="row justify-content-center">
+              <form ref={form} onSubmit={sendEmail} className="col-12 row g-4">
+                <div className="col-md-12">
                   <input
                     type="text"
                     name="user_name"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Full Name"
                     required
                   />
                 </div>
 
-                <div class="col-md-12">
+                <div className="col-md-12">
                   <input
                     type="email"
                     name="user_email"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Email Address"
                     required
                   />
                 </div>
 
-                <div class="col-md-12">
+                <div className="col-md-12">
                   <input
                     type="text"
                     name="phone"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Phone Number"
                   />
                 </div>
 
-                <div class="col-md-12">
+                <div className="col-md-12">
                   <input
                     type="text"
                     name="subject"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Subject"
                   />
                 </div>
 
-                <div class="col-12">
+                <div className="col-12">
                   <textarea
                     name="message"
                     rows="5"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Your Message"
                     required
                   ></textarea>
                 </div>
 
-                <div class="col-12 text-center">
-                  <button type="submit" class="btn-lg bg-gold border text-white px-5 py-2">
+                <div className="col-12 text-center">
+                  <button
+                    type="submit"
+                    className="btn-lg bg-gold border text-white px-5 py-2"
+                  >
                     Send Message
                   </button>
                 </div>

@@ -130,6 +130,11 @@
 .testimonial-card {
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
 }
 
 .carousel-indicators [data-bs-target] {
@@ -137,7 +142,9 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
+  margin: 0 4px;
 }
+
 
 
 /* Heading Home */
