@@ -135,12 +135,21 @@ export const ContactUs = () => {
                 </div>
 
                 <div className="col-md-12">
-                  <input
-                    type="text"
-                    name="subject"
-                    className="form-control"
-                    placeholder="Subject"
-                  />
+                  <select name="subject" className="form-control" required>
+                    <option value="">Select Subject</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Automobile Coating">
+                      Automobile Coating
+                    </option>
+                    <option value="Architecture Coating">
+                      Architecture Coating
+                    </option>
+                    <option value="Powder Coating">Powder Coating</option>
+                    <option value="Industrial Coating">
+                      Industrial Coating
+                    </option>
+                    <option value="Other">Other</option>
+                  </select>
                 </div>
 
                 <div className="col-12">
