@@ -25,17 +25,17 @@ export const Nav = () => {
             <img
               src={logo}
               alt="ProCoatify Logo"
-              width="100"
-              height="100"
+              width="90"
+              height="90"
               className="img-fluid"
             />
-            <img
+            {/* <img
               src={torch}
               alt="ProCoatify Torch"
               width="100"
               height="100"
               className="img-fluid"
-            />
+            /> */}
           </div>
         </Link>
 
