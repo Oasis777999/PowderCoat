@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../Images/logo.png";
 
 export function Footer() {
   return (
@@ -73,7 +72,7 @@ export function Footer() {
                 </li>
                 <li>
                   <Link
-                    to="/about"
+                    to="/aboutus"
                     className="text-light text-decoration-none hover-link"
                   >
                     About Us

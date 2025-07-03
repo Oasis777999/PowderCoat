@@ -33,7 +33,7 @@ const InfoPopUp = () => {
       role="dialog"
       aria-modal="true"
     >
-      <div className="modal-dialog modal-dialog-centered" role="document">
+      <div className="modal-dialog modal-dialog-centered" role="document"  style={{ maxWidth: "370px" }}>
         <div className="modal-content">
           <div className="modal-header border">
             <h5 className="modal-title text-gold">Get a Quote</h5>
